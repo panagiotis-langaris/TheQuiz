@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Quiz</string>
+    <string name="questionA">A) What is the biggest country in the world?</string>
+    <string name="questionB">B) How many people are there in the world?</string>
+    <string name="questionC">C) When did Brazil win the FIFA World Cup?</string>
+    <string name="questionD">D) What is the capital city of Greece?</string>
+    <string name="questionE">E) Which countries are in Europe?</string>
+    <string name="questionF">F) When did Alexander Graham Bell invent the telephone?</string>
+
+    <!-- The placeholder hint for the Edit Text answer field of question D. -->
+    <string name="editTextHint">Write your answer here</string>
+</resources>

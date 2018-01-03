@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.thequiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_repeat"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/quizIntro"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/quiz_intro" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/anchor1"
+            style="@style/QuestionStyle"
+            android:text="@string/questionA" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/a1"
+                style="@style/RadioButtonStyle"
+                android:text="America" />
+
+            <RadioButton
+                android:id="@+id/a2"
+                style="@style/RadioButtonStyle"
+                android:text="Russia" />
+
+            <RadioButton
+                android:id="@+id/a3"
+                style="@style/RadioButtonStyle"
+                android:text="China" />
+
+            <RadioButton
+                android:id="@+id/a4"
+                style="@style/RadioButtonStyle"
+                android:text="India" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/questionB" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/b1"
+                style="@style/RadioButtonStyle"
+                android:text="6 billion" />
+
+            <RadioButton
+                android:id="@+id/b2"
+                style="@style/RadioButtonStyle"
+                android:text="4 billion" />
+
+            <RadioButton
+                android:id="@+id/b3"
+                style="@style/RadioButtonStyle"
+                android:text="1 billion" />
+
+            <RadioButton
+                android:id="@+id/b4"
+                style="@style/RadioButtonStyle"
+                android:text="7 billion" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/questionC" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/c1"
+            style="@style/CheckBoxStyle"
+            android:text="2002" />
+
+        <CheckBox
+            android:id="@+id/c2"
+            style="@style/CheckBoxStyle"
+            android:text="2010" />
+
+        <CheckBox
+            android:id="@+id/c3"
+            style="@style/CheckBoxStyle"
+            android:text="1994" />
+
+        <CheckBox
+            android:id="@+id/c4"
+            style="@style/CheckBoxStyle"
+            android:layout_marginBottom="8dp"
+            android:text="2014" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/questionD" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/darken_background"
+            android:fontFamily="sans-serif-light"
+            android:hint="@string/editTextHint"
+            android:inputType="textCapWords"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textCursorDrawable="@null"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/questionE" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <CheckBox
+            android:id="@+id/e1"
+            style="@style/CheckBoxStyle"
+            android:text="Greece" />
+
+        <CheckBox
+            android:id="@+id/e2"
+            style="@style/CheckBoxStyle"
+            android:text="India" />
+
+        <CheckBox
+            android:id="@+id/e3"
+            style="@style/CheckBoxStyle"
+            android:text="Egypt" />
+
+        <CheckBox
+            android:id="@+id/e4"
+            style="@style/CheckBoxStyle"
+            android:layout_marginBottom="8dp"
+            android:text="France" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            style="@style/QuestionStyle"
+            android:text="@string/questionF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/f1"
+                style="@style/RadioButtonStyle"
+                android:text="1850" />
+
+            <RadioButton
+                android:id="@+id/f2"
+                style="@style/RadioButtonStyle"
+                android:text="1912" />
+
+            <RadioButton
+                android:id="@+id/f3"
+                style="@style/RadioButtonStyle"
+                android:text="1879" />
+
+            <RadioButton
+                android:id="@+id/f4"
+                style="@style/RadioButtonStyle"
+                android:text="1876" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:background="#333333"
+            android:onClick="submitAnswers"
+            android:text="Submit"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
